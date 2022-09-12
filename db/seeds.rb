@@ -26,5 +26,5 @@ Teacher.create(name: "Mr. Galaher Peterson")
 ReadingList.create(book_name: "Snow White and the & 7 dwarfs")
 ReadingList.create(book_name: "Goldillocks")
 ReadingList.create(book_name: "Three little pigs")
-Review.create(reviews: "")
+Review.create(reviews: "Nice Book. Good Job Dr. Seuus!!")
  puts "✅ Done seeding!"
