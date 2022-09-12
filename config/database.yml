@@ -1,0 +1,18 @@
+default: &default
+  adapter: postgresql
+  
+
+development:
+  <<: *default
+  database: db/development.sqlite3
+
+test:
+  <<: *default
+  database: db/test.sqlite3
+
+production:
+  <<: *default
+  database: dc3kbe21eknf7h
+  username: akdupmepmttorv
+  host: ec2-3-93-206-109.compute-1.amazonaws.com
+  password: f4fc25119980ed0e0edcebcfd5f18bff18d4d9d420e67008ff0b767d50e01f3b
